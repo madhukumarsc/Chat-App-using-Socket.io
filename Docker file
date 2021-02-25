@@ -3,4 +3,4 @@ RUN mkdir -p /usr/app
 WORKING /usr/app
 COPY . .
 RUN npm install
-CMD node app.js
+CMD ["node", "app.js"]
